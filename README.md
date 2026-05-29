@@ -33,12 +33,14 @@ A simple backend system with JWT authentication, Redis rate limiting, and book/a
 - MySQL
 - Redis
 
+> Create a MySQL database named `zervvo` before starting the app.
+
 ### Steps
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
-cd zervvo
+git clone https://github.com/SudharshanKalidoss/zervvo-technologies-backend
+cd zervvo-technologies-backend
 ```
 
 2. **Install dependencies**
