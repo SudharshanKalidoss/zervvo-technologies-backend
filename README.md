@@ -149,6 +149,10 @@ Two types of rate limiting:
 - 10 requests per 60 seconds per user
 - Prevents abuse
 
+Protected endpoints use Redis-based rate limiting.
+
+Rate limits are applied per authenticated user ID. Each user can make up to 10 requests per minute across all protected endpoints.
+
 ### Configuration
 Update rate limiting parameters in `.env`:
 ```env
